@@ -2,6 +2,16 @@
 
 > **⚠️ Proje durumu:** Bu proje **henüz tamamlanmadı**. Aktif geliştirme aşamasında ve **kısa süre içinde halka açık** olarak yayınlanacak. O zamana kadar kod, dokümantasyon ve özellikler değişebilir.
 
+<p align="center">
+  <img src="C11K_Rat_Photos/1.png" alt="C11K — Ana arayüz" width="900">
+</p>
+
+<p align="center">
+  <i>C11K ana arayüz — istemci ızgarası, canlı önizleme ve sağ panel hızlı eylemler</i>
+</p>
+
+---
+
 **C11K**, C# WinForms ile yazılmış, tek dosyada çalışan bir uzaktan erişim aracıdır. İçinde **builder**, **server** ve **Telegram botu** bir arada bulunur — harici bağımlılık yoktur, .NET Framework ile derlenir.
 
 ---
@@ -529,6 +539,28 @@ csc /target:winexe /optimize+ C11K.cs
 3. Çıkan `.exe`'yi hedefe çalıştır (kendi labında!)
 4. İstemci bağlanınca **İstemciler** panelinde görünür
 5. İstemciye tıkla → sağ panelden hızlı eylemler veya sağ tık menüsü
+
+### 📸 Arayüz
+
+<p align="center">
+  <img src="C11K_Rat_Photos/1.png" alt="İstemci ızgarası ve ana panel" width="880"><br>
+  <b>Ana panel</b> — istemci listesi, canlı önizleme, sağ tık menüsü ve hızlı eylemler
+</p>
+
+<br>
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="C11K_Rat_Photos/2.png" alt="Sağ tık menüsü" width="420"><br>
+      <b>Sağ tık menüsü</b> — tüm modüllere tek tıkla erişim
+    </td>
+    <td align="center" width="50%">
+      <img src="C11K_Rat_Photos/3.png" alt="Modül / panel görünümü" width="420"><br>
+      <b>Modül görünümü</b> — canlı kontrol ve bilgi toplama
+    </td>
+  </tr>
+</table>
 
 ---
 
